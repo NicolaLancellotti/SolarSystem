@@ -8,4 +8,7 @@ Except for the Sun
 
 are in proportions with the real ones.
 
-
+![Screenshot0](Screenshots/Screenshot0.png)
+![Screenshot1](Screenshots/Screenshot1.png)
+![Screenshot2](Screenshots/Screenshot2.png)
+![Screenshot3](Screenshots/Screenshot3.png)
