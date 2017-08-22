@@ -16,6 +16,7 @@
 #include "Material.hpp"
 
 class Planet {
+    std::string _name;
     GLfloat _rotationPeriod;
     GLfloat _orbitalPeriod;
     GLfloat _orbitalDistance;
@@ -32,8 +33,11 @@ public:
     static GLfloat rotationPeriodSpeed;
     static GLfloat orbitalPeriodSpeed;
     
-    Planet(GLfloat rotationPeriod, GLfloat orbitalPeriod, GLfloat orbitalDistance,
-           GLfloat radius, char textureName[]);
+    Planet(GLfloat rotationPeriod,
+           GLfloat orbitalPeriod,
+           GLfloat orbitalDistance,
+           GLfloat radius,
+           char textureName[]);
     
     void update(GLfloat timeInterval);
    

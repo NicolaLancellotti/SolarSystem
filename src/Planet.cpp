@@ -15,7 +15,9 @@
 GLfloat Planet::orbitalPeriodSpeed = 1.0;
 GLfloat Planet::rotationPeriodSpeed = 1.0;
 
-Planet::Planet(GLfloat rotationPeriod, GLfloat orbitalPeriod, GLfloat orbitalDistance,
+Planet::Planet(GLfloat rotationPeriod,
+               GLfloat orbitalPeriod,
+               GLfloat orbitalDistance,
                GLfloat radius, char textureName[]) :
                 _rotationPeriod(rotationPeriod),
                 _orbitalPeriod(orbitalPeriod),
