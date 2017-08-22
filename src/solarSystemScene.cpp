@@ -16,8 +16,6 @@
 #include "Sphere.hpp"
 #include "loadTexture.h"
 
-using namespace std;
-
 // _____________________________________________________________________________
 #pragma mark - Declarations
 
@@ -42,7 +40,7 @@ static void specialCallback(int key, int x, int y);
 static Camera *camera;
 static Light *light;
 static Skybox *skybox;
-static vector<Planet> *planets;
+static std::vector<Planet> *planets;
 
 //______________________________________________________________________________
 #pragma mark - Callbacks
@@ -222,7 +220,7 @@ void initSkybox()
 
 void initPlanets()
 {
-    planets = new vector<Planet>;
+    planets = new std::vector<Planet>;
     
     GLfloat factorRadius = 1e4;
     GLfloat factorOrbitalDistance = 1e7;

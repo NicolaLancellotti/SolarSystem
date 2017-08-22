@@ -14,8 +14,6 @@
 #include "glutCrossPlatform.h"
 #include "Material.hpp"
 
-using namespace std;
-
 class Planet {
     GLfloat _rotationPeriod;
     GLfloat _orbitalPeriod;
@@ -24,7 +22,7 @@ class Planet {
     
     GLuint _texture;
     Material _material;
-    vector<Planet> _moons; 
+    std::vector<Planet> _moons;
 
     GLfloat _angleRotation;
     GLfloat _angleOrbital;
