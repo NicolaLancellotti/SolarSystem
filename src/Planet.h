@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include <vector>
+#include <iostream>
 #include "glutCrossPlatform.h"
 #include "Material.hpp"
 
