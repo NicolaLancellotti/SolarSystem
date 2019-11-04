@@ -1,16 +1,16 @@
 //
 //  solarSystemScene.h
-//  TemplateOpenGL
+//  SolarSystem
 //
 //  Created by Nicola Lancellotti on 6/11/15.
 //  Copyright (c) 2015 Nicola Lancellotti. All rights reserved.
 //
 
-#ifndef __TemplateOpenGL__solarSystemScene__
-#define __TemplateOpenGL__solarSystemScene__
+#ifndef __SolarSystem__solarSystemScene__
+#define __SolarSystem__solarSystemScene__
 
 #include <stdio.h>
 
 void loadSolarSystemScene();
 
-#endif /* defined(__TemplateOpenGL__solarSystemScene__) */
+#endif /* defined(__SolarSystem__solarSystemScene__) */

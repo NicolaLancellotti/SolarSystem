@@ -1,6 +1,6 @@
 //
 //  Material.hpp
-//  TemplateOpenGL
+//  SolarSystem
 //
 //  Created by Nicola Lancellotti on 6/15/15.
 //  Copyright © 2015 Nicola Lancellotti. All rights reserved.

@@ -1,13 +1,13 @@
 //
 //  Light.h
-//  TemplateOpenGL
+//  SolarSystem
 //
 //  Created by Nicola Lancellotti on 6/15/15.
 //  Copyright (c) 2015 Nicola Lancellotti. All rights reserved.
 //
 
-#ifndef __TemplateOpenGL__Light__
-#define __TemplateOpenGL__Light__
+#ifndef __SolarSystem__Light__
+#define __SolarSystem__Light__
 
 #include <stdio.h>
 #include "glutCrossPlatform.h"
@@ -23,4 +23,4 @@ public:
     void apply();
 };
 
-#endif /* defined(__TemplateOpenGL__Light__) */
+#endif /* defined(__SolarSystem__Light__) */

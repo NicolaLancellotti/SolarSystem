@@ -1,6 +1,6 @@
 //
 //  Camera.cpp
-//  TemplateOpenGL
+//  SolarSystem
 //
 //  Created by Nicola Lancellotti on 6/11/15.
 //  Copyright © 2015 Nicola Lancellotti. All rights reserved.

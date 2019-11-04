@@ -1,13 +1,13 @@
 //
 //  Planet.h
-//  TemplateOpenGL
+//  SolarSystem
 //
 //  Created by Nicola Lancellotti on 6/11/15.
 //  Copyright (c) 2015 Nicola Lancellotti. All rights reserved.
 //
 
-#ifndef __TemplateOpenGL__Planet__
-#define __TemplateOpenGL__Planet__
+#ifndef __SolarSystem__Planet__
+#define __SolarSystem__Planet__
 
 #include <stdio.h>
 #include <vector>
@@ -47,4 +47,4 @@ public:
 };
 
 
-#endif /* defined(__TemplateOpenGL__Planet__) */
+#endif /* defined(__SolarSystem__Planet__) */
